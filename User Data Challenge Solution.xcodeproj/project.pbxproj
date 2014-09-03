@@ -21,6 +21,8 @@
 		4F9FAB8019B6B3EE0071C747 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9FAB6219B6B3EE0071C747 /* UIKit.framework */; };
 		4F9FAB8819B6B3EE0071C747 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FAB8619B6B3EE0071C747 /* InfoPlist.strings */; };
 		4F9FAB8A19B6B3EE0071C747 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FAB8919B6B3EE0071C747 /* User_Data_Challenge_SolutionTests.m */; };
+		4F9FAB9519B6B9A30071C747 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FAB9419B6B9A30071C747 /* UserData.m */; };
+		4F9FAB9819B6C76A0071C747 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FAB9719B6C76A0071C747 /* UserObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		4F9FAB8519B6B3EE0071C747 /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		4F9FAB8719B6B3EE0071C747 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F9FAB8919B6B3EE0071C747 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		4F9FAB9319B6B9A30071C747 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		4F9FAB9419B6B9A30071C747 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		4F9FAB9619B6C76A0071C747 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
+		4F9FAB9719B6C76A0071C747 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 				4F9FAB7019B6B3EE0071C747 /* Main.storyboard */,
 				4F9FAB7319B6B3EE0071C747 /* CSViewController.h */,
 				4F9FAB7419B6B3EE0071C747 /* CSViewController.m */,
+				4F9FAB9619B6C76A0071C747 /* UserObject.h */,
+				4F9FAB9719B6C76A0071C747 /* UserObject.m */,
 				4F9FAB7619B6B3EE0071C747 /* Images.xcassets */,
 				4F9FAB6519B6B3EE0071C747 /* Supporting Files */,
 			);
@@ -126,6 +134,8 @@
 		4F9FAB6519B6B3EE0071C747 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F9FAB9319B6B9A30071C747 /* UserData.h */,
+				4F9FAB9419B6B9A30071C747 /* UserData.m */,
 				4F9FAB6619B6B3EE0071C747 /* User Data Challenge Solution-Info.plist */,
 				4F9FAB6719B6B3EE0071C747 /* InfoPlist.strings */,
 				4F9FAB6A19B6B3EE0071C747 /* main.m */,
@@ -252,6 +262,8 @@
 			files = (
 				4F9FAB6F19B6B3EE0071C747 /* CSAppDelegate.m in Sources */,
 				4F9FAB6B19B6B3EE0071C747 /* main.m in Sources */,
+				4F9FAB9519B6B9A30071C747 /* UserData.m in Sources */,
+				4F9FAB9819B6C76A0071C747 /* UserObject.m in Sources */,
 				4F9FAB7519B6B3EE0071C747 /* CSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +469,7 @@
 				4F9FAB8F19B6B3EE0071C747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F9FAB9019B6B3EE0071C747 /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +478,7 @@
 				4F9FAB9219B6B3EE0071C747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

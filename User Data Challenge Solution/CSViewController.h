@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface CSViewController : UIViewController
+
+@property (nonatomic) NSMutableArray *usersB;
 
 @end
