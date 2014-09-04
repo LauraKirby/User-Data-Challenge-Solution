@@ -14,20 +14,25 @@
 {
     NSMutableArray *userInformation = [@[] mutableCopy];
     
-    NSDictionary *userDictionary = @{USER_NAME: @"User One"};
-    [userInformation addObject:userDictionary];
+    NSDictionary *laura = @{USER_NAME: @"Laura", USER_EMAIL: @"Gmail", USER_PASSWORD: @"It's a secret", USER_AGE: @27, USER_PROFILEPIC: [UIImage imageNamed:@"selfie.JPG"]};
     
-    NSDictionary *emailDictionary = @{USER_EMAIL: @"Email One"};
-    [userInformation addObject:emailDictionary];
+        [userInformation addObject:laura];
     
-    NSDictionary *passwordDictionary = @{USER_PASSWORD: @"Password One"};
-    [userInformation addObject:passwordDictionary];
+    NSDictionary *cat = @{USER_NAME: @"Clipsy",USER_EMAIL: @"Email One", USER_PASSWORD: @"Mouse", USER_AGE: @4, USER_PROFILEPIC: [UIImage imageNamed:@"clipsy.JPG"]};
     
-    NSDictionary *ageDictionary = @{USER_AGE: @1};
-    [userInformation addObject:ageDictionary];
+        [userInformation addObject:cat];
     
-    NSDictionary *profilePictureDictionary = @{USER_PROFILEPIC: @"Profile Picture One"};
-    [userInformation addObject:profilePictureDictionary];
+    NSDictionary *snowboarder = @{USER_NAME: @"FreshPowder", USER_EMAIL: @"Hotmail", USER_PASSWORD: @"Slopes", USER_AGE: @18, USER_PROFILEPIC: [UIImage imageNamed:@"riding.png"]};
+    
+        [userInformation addObject:snowboarder];
+    
+    NSDictionary *michelle = @{USER_NAME: @"Michelle", USER_EMAIL: @"Gmail", USER_PASSWORD: @"ChocolateCake", USER_AGE: @27, USER_PROFILEPIC: [UIImage imageNamed: @"michelle.png"]};
+    
+        [userInformation addObject:michelle];
+    
+    NSDictionary *alien = @{USER_NAME: @"ET", USER_EMAIL: @"SpaceMail", USER_PASSWORD: @"UFO", USER_AGE: @200,  USER_PROFILEPIC: [UIImage imageNamed:@"alien.png"]};
+   
+        [userInformation addObject:alien];
     
     return [userInformation copy];
 }

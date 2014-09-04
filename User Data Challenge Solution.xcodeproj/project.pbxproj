@@ -23,6 +23,11 @@
 		4F9FAB8A19B6B3EE0071C747 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FAB8919B6B3EE0071C747 /* User_Data_Challenge_SolutionTests.m */; };
 		4F9FAB9519B6B9A30071C747 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FAB9419B6B9A30071C747 /* UserData.m */; };
 		4F9FAB9819B6C76A0071C747 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FAB9719B6C76A0071C747 /* UserObject.m */; };
+		4F9FAB9B19B7B9840071C747 /* selfie.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FAB9A19B7B9840071C747 /* selfie.JPG */; };
+		4F9FAB9D19B816940071C747 /* riding.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FAB9C19B816940071C747 /* riding.png */; };
+		4F9FAB9F19B816B10071C747 /* clipsy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FAB9E19B816B10071C747 /* clipsy.JPG */; };
+		4F9FABA219B816C00071C747 /* michelle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FABA019B816C00071C747 /* michelle.png */; };
+		4F9FABA319B816C00071C747 /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F9FABA119B816C00071C747 /* alien.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		4F9FAB9419B6B9A30071C747 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
 		4F9FAB9619B6C76A0071C747 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
 		4F9FAB9719B6C76A0071C747 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
+		4F9FAB9A19B7B9840071C747 /* selfie.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = selfie.JPG; sourceTree = "<group>"; };
+		4F9FAB9C19B816940071C747 /* riding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riding.png; sourceTree = "<group>"; };
+		4F9FAB9E19B816B10071C747 /* clipsy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clipsy.JPG; sourceTree = "<group>"; };
+		4F9FABA019B816C00071C747 /* michelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michelle.png; sourceTree = "<group>"; };
+		4F9FABA119B816C00071C747 /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,7 @@
 				4F9FAB7419B6B3EE0071C747 /* CSViewController.m */,
 				4F9FAB9619B6C76A0071C747 /* UserObject.h */,
 				4F9FAB9719B6C76A0071C747 /* UserObject.m */,
+				4F9FAB9919B7B6740071C747 /* Model */,
 				4F9FAB7619B6B3EE0071C747 /* Images.xcassets */,
 				4F9FAB6519B6B3EE0071C747 /* Supporting Files */,
 			);
@@ -134,9 +145,12 @@
 		4F9FAB6519B6B3EE0071C747 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F9FAB9319B6B9A30071C747 /* UserData.h */,
-				4F9FAB9419B6B9A30071C747 /* UserData.m */,
 				4F9FAB6619B6B3EE0071C747 /* User Data Challenge Solution-Info.plist */,
+				4F9FABA019B816C00071C747 /* michelle.png */,
+				4F9FABA119B816C00071C747 /* alien.png */,
+				4F9FAB9A19B7B9840071C747 /* selfie.JPG */,
+				4F9FAB9C19B816940071C747 /* riding.png */,
+				4F9FAB9E19B816B10071C747 /* clipsy.JPG */,
 				4F9FAB6719B6B3EE0071C747 /* InfoPlist.strings */,
 				4F9FAB6A19B6B3EE0071C747 /* main.m */,
 				4F9FAB6C19B6B3EE0071C747 /* User Data Challenge Solution-Prefix.pch */,
@@ -160,6 +174,15 @@
 				4F9FAB8619B6B3EE0071C747 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F9FAB9919B7B6740071C747 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F9FAB9319B6B9A30071C747 /* UserData.h */,
+				4F9FAB9419B6B9A30071C747 /* UserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +263,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9FAB7719B6B3EE0071C747 /* Images.xcassets in Resources */,
+				4F9FAB9B19B7B9840071C747 /* selfie.JPG in Resources */,
 				4F9FAB6919B6B3EE0071C747 /* InfoPlist.strings in Resources */,
+				4F9FAB9F19B816B10071C747 /* clipsy.JPG in Resources */,
 				4F9FAB7219B6B3EE0071C747 /* Main.storyboard in Resources */,
+				4F9FABA319B816C00071C747 /* alien.png in Resources */,
+				4F9FAB9D19B816940071C747 /* riding.png in Resources */,
+				4F9FABA219B816C00071C747 /* michelle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
